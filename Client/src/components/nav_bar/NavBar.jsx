@@ -1,10 +1,14 @@
-import React from 'react';
+import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import './NavBar.css'
-import Logo from '../../images/logo.png'
+import { useAuthLogout } from "../../auth/AuthLogout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons"; // exemplo de ícone
+import "./NavBar.css";
+import Logo from "../../images/logo.png";
 
 const NavBar = () => {
-  const location = useLocation(); 
+  const logout = useAuthLogout();
+  const location = useLocation();
   const navigate = useNavigate();
 
   // Define global items
@@ -23,17 +27,17 @@ const NavBar = () => {
     //...(UserRole === "Admin" ? adminItems : []), // Add admin items if the user is Admin
   ];
 
-  const hasActive = itemsToDisplay.some(item => location.pathname === item.navigation);
+  const hasActive = itemsToDisplay.some(
+    (item) => location.pathname === item.navigation
+  );
 
   return (
     <header>
-      
       <div className="nav-bar-container">
-       
-        <div className='nav-bar-left-content'>
+        <div className="nav-bar-left-content">
           <img className="logo" src={Logo} alt="Cabra Sueca Logo"></img>
-      
-          <div className="btns-container">
+
+          <nav className="btns-container">
             {itemsToDisplay.map((item) => (
               <span
                 key={item.name}
@@ -46,18 +50,23 @@ const NavBar = () => {
                       }
                     : undefined
                 }
-                className={`nav-item ${location.pathname === item.navigation ? "active" : ""}`}
+                className={`nav-item ${
+                  location.pathname === item.navigation ? "active" : ""
+                }`}
               >
                 {item.name}
               </span>
             ))}
-          
-          </div>
+          </nav>
         </div>
-        <div>LOGOUT</div>
-       
+        <div>
+          <FontAwesomeIcon
+            onClick={logout}
+            icon={faRightFromBracket}
+            className="logoutIcon"
+          />
+        </div>
       </div>
-     
     </header>
   );
 };
