@@ -2,6 +2,12 @@
     width: 100vw;
     padding: 0 3rem;
     box-sizing: border-box;
+    
+}
+.app{
+    width: 100vw;
+    height: 100vw;
+    background-color: #F0DBA9;
 }
 
 input,
@@ -16,5 +22,8 @@ textarea {
         height: 100dvh;
 
     }
-
+    .app{
+        width: 100dvw;
+        height: 100dvh;
+    }
 }

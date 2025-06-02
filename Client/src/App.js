@@ -13,15 +13,15 @@ const App = () => {
 
 
   return (
-    <>
-      <ToastContainer position="top-right" autoClose={2000} pauseOnHover={false}  draggable={true} draggableDirection="x" draggablePercent="15"/> 
+    <div className='app'>
+      <ToastContainer position="top-right" autoClose={3000} pauseOnHover={false}  draggable={true} draggableDirection="x" draggablePercent="15"/> 
       {currentUser &&  
         <div>
             <Header />
         </div>
       }
       
-      <div className={currentUser ? "content" : ""}>
+      <div className={currentUser && ("content")}>
       <Routes>
           <Route path="/" element={<Navigate to={currentUser ? "/Eventos" : "/Login"} />} />
           <Route path="/Login" element={currentUser ? <Navigate to="/Eventos" /> : <Login />} />
@@ -30,7 +30,7 @@ const App = () => {
           <Route path="/Membros" element={currentUser ? <Membros/> : <Navigate to="/Login" />} />
         </Routes>
       </div>
-    </>
+    </div>
   );
 }
 
