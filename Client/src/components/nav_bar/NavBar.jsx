@@ -73,14 +73,17 @@ const NavBar = () => {
         </div>
 
         {/* Menu Mobile (hambúrguer) */}
-        <div className={styles.hamburgerContainer}>
+        <div className={styles.hamburgerContainer} ref={menuRef} >
           <FontAwesomeIcon
             icon={faBars}
             className={styles.faIcon}
-            onClick={() => setIsOpenHamburger((prev) => !prev)}
+            onClick={(e) => {
+              setIsOpenHamburger((prev) => !prev);
+            }}
           />
+
           {isOpenHamburguer && (
-            <nav className={styles.mobileMenu} ref={menuRef}>
+            <nav className={styles.mobileMenu} >
               <ul className={styles.navList}>{renderNavItems()}</ul>
               <ul className={styles.navList}>
                 <FontAwesomeIcon
