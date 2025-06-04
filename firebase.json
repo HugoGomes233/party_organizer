@@ -1,0 +1,9 @@
+ {
+  "apphosting": {
+    "source": "frontend",
+    "backend": {
+      "id": "cabrasuecaserver",
+      "source": "server"
+    }
+  }
+}

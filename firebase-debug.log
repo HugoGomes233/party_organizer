@@ -1,0 +1,500 @@
+[debug] [2025-06-03T23:53:31.381Z] ----------------------------------------------------------------------
+[debug] [2025-06-03T23:53:31.383Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-06-03T23:53:31.383Z] CLI Version:   14.5.1
+[debug] [2025-06-03T23:53:31.383Z] Platform:      win32
+[debug] [2025-06-03T23:53:31.383Z] Node Version:  v22.14.0
+[debug] [2025-06-03T23:53:31.383Z] Time:          Wed Jun 04 2025 00:53:31 GMT+0100 (Hora de verão da Europa Ocidental)
+[debug] [2025-06-03T23:53:31.383Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-03T23:53:31.519Z] Object "/apphosting" in "firebase.json" is missing required property: {"missingProperty":"backendId"}
+[debug] [2025-06-03T23:53:31.519Z] Field "/apphosting" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-06-03T23:53:31.519Z] Field "/apphosting" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[debug] [2025-06-03T23:53:31.521Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-03T23:53:31.521Z] > authorizing via signed-in user (hugomes1999@gmail.com)
+[debug] [2025-06-03T23:53:31.522Z] [iam] checking project cabrasuecapartyorganizer for permissions ["firebase.projects.get",null]
+[debug] [2025-06-03T23:53:31.522Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:31.522Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:31.523Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions [none]
+[debug] [2025-06-03T23:53:31.523Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:31.523Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get",null]}
+[debug] [2025-06-03T23:53:32.257Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions 200
+[debug] [2025-06-03T23:53:32.257Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-03T23:53:32.257Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project cabrasuecapartyorganizer:
+
+  
+[info] 
+[info] === Deploying to 'cabrasuecapartyorganizer'...
+[info] 
+[info] i  deploying apphosting 
+[debug] [2025-06-03T23:53:32.259Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:32.259Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:32.260Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-06-03T23:53:32.260Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:33.123Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-06-03T23:53:33.123Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.123Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [none]
+[debug] [2025-06-03T23:53:33.124Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:33.124Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [none]
+[debug] [2025-06-03T23:53:33.124Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:33.125Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [none]
+[debug] [2025-06-03T23:53:33.125Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:33.126Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [none]
+[debug] [2025-06-03T23:53:33.126Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:33.127Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [none]
+[debug] [2025-06-03T23:53:33.127Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:33.128Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [none]
+[debug] [2025-06-03T23:53:33.128Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:33.858Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com 200
+[debug] [2025-06-03T23:53:33.858Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-06-03T23:53:33.927Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com 200
+[debug] [2025-06-03T23:53:33.927Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [omitted]
+[debug] [2025-06-03T23:53:33.928Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com 200
+[debug] [2025-06-03T23:53:33.928Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-06-03T23:53:33.928Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com 200
+[debug] [2025-06-03T23:53:33.928Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-06-03T23:53:33.943Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com 200
+[debug] [2025-06-03T23:53:33.943Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [omitted]
+[debug] [2025-06-03T23:53:33.944Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com 200
+[debug] [2025-06-03T23:53:33.944Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-06-03T23:53:33.944Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.944Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:33.944Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-06-03T23:53:33.944Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:53:33.944Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-03T23:53:34.635Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-06-03T23:53:34.635Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-03T23:53:34.636Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:34.636Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:34.636Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy [none]
+[debug] [2025-06-03T23:53:34.845Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy 200
+[debug] [2025-06-03T23:53:34.845Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy {"version":1,"etag":"BwY2s0/Ktvg=","bindings":[{"role":"roles/artifactregistry.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-artifactregistry.iam.gserviceaccount.com"]},{"role":"roles/cloudbuild.builds.builder","members":["serviceAccount:1057890312188@cloudbuild.gserviceaccount.com"]},{"role":"roles/cloudbuild.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-cloudbuild.iam.gserviceaccount.com"]},{"role":"roles/containerregistry.ServiceAgent","members":["serviceAccount:service-1057890312188@containerregistry.iam.gserviceaccount.com"]},{"role":"roles/editor","members":["serviceAccount:1057890312188-compute@developer.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/firebaseapphosting.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebaseapphosting.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/logging.logWriter","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:hugomes1999@gmail.com"]},{"role":"roles/run.serviceAgent","members":["serviceAccount:service-1057890312188@serverless-robot-prod.iam.gserviceaccount.com"]},{"role":"roles/storage.objectViewer","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]}]}
+[debug] [2025-06-03T23:53:34.846Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:34.846Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:53:34.846Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 
+[debug] [2025-06-03T23:53:35.804Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 200
+[debug] [2025-06-03T23:53:35.804Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends {"backends":[{"name":"projects/cabrasuecapartyorganizer/locations/europe-west4/backends/cabrasuecaserver","createTime":"2025-06-03T23:10:36.504104729Z","updateTime":"2025-06-03T23:10:36.876548Z","labels":{"deployment-tool":"cli-firebase"},"uri":"cabrasuecaserver--cabrasuecapartyorganizer.europe-west4.hosted.app","uid":"c04cb931-70fe-487a-9d3d-9342fa64fc3c","etag":"paTc3i3V-byluVcs-eM6PcQHqtcw4GAjoi5MyYRofGw","reconciling":false,"servingLocality":"GLOBAL_ACCESS","serviceAccount":"firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com","appId":"1:1057890312188:web:45aaa04cc2212072d31c79"}]}
+[debug] [2025-06-03T23:55:29.765Z] TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:51:29
+    at Array.map (<anonymous>)
+    at normalizeChoices (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:39:20)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:72:52
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:120:38
+    at store.handleChange (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:31:17)
+    at cycle (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:33:19)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:118:13
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:35:16
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-03T23:55:37.643Z] ----------------------------------------------------------------------
+[debug] [2025-06-03T23:55:37.645Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-06-03T23:55:37.645Z] CLI Version:   14.5.1
+[debug] [2025-06-03T23:55:37.645Z] Platform:      win32
+[debug] [2025-06-03T23:55:37.646Z] Node Version:  v22.14.0
+[debug] [2025-06-03T23:55:37.646Z] Time:          Wed Jun 04 2025 00:55:37 GMT+0100 (Hora de verão da Europa Ocidental)
+[debug] [2025-06-03T23:55:37.646Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-03T23:55:37.775Z] Object "/apphosting" in "firebase.json" is missing required property: {"missingProperty":"backendId"}
+[debug] [2025-06-03T23:55:37.775Z] Field "/apphosting" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-06-03T23:55:37.776Z] Field "/apphosting" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[debug] [2025-06-03T23:55:37.778Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-03T23:55:37.778Z] > authorizing via signed-in user (hugomes1999@gmail.com)
+[debug] [2025-06-03T23:55:37.778Z] [iam] checking project cabrasuecapartyorganizer for permissions ["firebase.projects.get",null]
+[debug] [2025-06-03T23:55:37.779Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:37.779Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:37.780Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions [none]
+[debug] [2025-06-03T23:55:37.780Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:37.780Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get",null]}
+[debug] [2025-06-03T23:55:38.470Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions 200
+[debug] [2025-06-03T23:55:38.470Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-03T23:55:38.470Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project cabrasuecapartyorganizer:
+
+  
+[info] 
+[info] === Deploying to 'cabrasuecapartyorganizer'...
+[info] 
+[info] i  deploying apphosting 
+[debug] [2025-06-03T23:55:38.472Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:38.472Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:38.472Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-06-03T23:55:38.472Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:39.335Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-06-03T23:55:39.335Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:39.336Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [none]
+[debug] [2025-06-03T23:55:39.336Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:39.337Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [none]
+[debug] [2025-06-03T23:55:39.337Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:39.338Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [none]
+[debug] [2025-06-03T23:55:39.338Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:39.339Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [none]
+[debug] [2025-06-03T23:55:39.339Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:39.340Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [none]
+[debug] [2025-06-03T23:55:39.340Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:39.341Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [none]
+[debug] [2025-06-03T23:55:39.341Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:40.088Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com 200
+[debug] [2025-06-03T23:55:40.088Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-06-03T23:55:40.135Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com 200
+[debug] [2025-06-03T23:55:40.135Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-06-03T23:55:40.141Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com 200
+[debug] [2025-06-03T23:55:40.141Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [omitted]
+[debug] [2025-06-03T23:55:40.151Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com 200
+[debug] [2025-06-03T23:55:40.151Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-06-03T23:55:40.152Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com 200
+[debug] [2025-06-03T23:55:40.152Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-06-03T23:55:40.180Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com 200
+[debug] [2025-06-03T23:55:40.180Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [omitted]
+[debug] [2025-06-03T23:55:40.180Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:40.180Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:40.180Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-06-03T23:55:40.180Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:55:40.180Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-03T23:55:40.831Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-06-03T23:55:40.832Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-03T23:55:40.832Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:40.832Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:40.832Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy [none]
+[debug] [2025-06-03T23:55:41.048Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy 200
+[debug] [2025-06-03T23:55:41.048Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy {"version":1,"etag":"BwY2s0/Ktvg=","bindings":[{"role":"roles/artifactregistry.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-artifactregistry.iam.gserviceaccount.com"]},{"role":"roles/cloudbuild.builds.builder","members":["serviceAccount:1057890312188@cloudbuild.gserviceaccount.com"]},{"role":"roles/cloudbuild.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-cloudbuild.iam.gserviceaccount.com"]},{"role":"roles/containerregistry.ServiceAgent","members":["serviceAccount:service-1057890312188@containerregistry.iam.gserviceaccount.com"]},{"role":"roles/editor","members":["serviceAccount:1057890312188-compute@developer.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/firebaseapphosting.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebaseapphosting.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/logging.logWriter","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:hugomes1999@gmail.com"]},{"role":"roles/run.serviceAgent","members":["serviceAccount:service-1057890312188@serverless-robot-prod.iam.gserviceaccount.com"]},{"role":"roles/storage.objectViewer","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]}]}
+[debug] [2025-06-03T23:55:41.048Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:41.048Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:55:41.048Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 
+[debug] [2025-06-03T23:55:41.924Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 200
+[debug] [2025-06-03T23:55:41.924Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends {"backends":[{"name":"projects/cabrasuecapartyorganizer/locations/europe-west4/backends/cabrasuecaserver","createTime":"2025-06-03T23:10:36.504104729Z","updateTime":"2025-06-03T23:10:36.876548Z","labels":{"deployment-tool":"cli-firebase"},"uri":"cabrasuecaserver--cabrasuecapartyorganizer.europe-west4.hosted.app","uid":"c04cb931-70fe-487a-9d3d-9342fa64fc3c","etag":"paTc3i3V-byluVcs-eM6PcQHqtcw4GAjoi5MyYRofGw","reconciling":false,"servingLocality":"GLOBAL_ACCESS","serviceAccount":"firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com","appId":"1:1057890312188:web:45aaa04cc2212072d31c79"}]}
+[debug] [2025-06-03T23:55:47.007Z] TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:51:29
+    at Array.map (<anonymous>)
+    at normalizeChoices (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:39:20)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:72:52
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:120:38
+    at store.handleChange (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:31:17)
+    at cycle (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:33:19)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:118:13
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:35:16
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-03T23:56:32.074Z] ----------------------------------------------------------------------
+[debug] [2025-06-03T23:56:32.076Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only apphosting --debug
+[debug] [2025-06-03T23:56:32.076Z] CLI Version:   14.5.1
+[debug] [2025-06-03T23:56:32.076Z] Platform:      win32
+[debug] [2025-06-03T23:56:32.077Z] Node Version:  v22.14.0
+[debug] [2025-06-03T23:56:32.077Z] Time:          Wed Jun 04 2025 00:56:32 GMT+0100 (Hora de verão da Europa Ocidental)
+[debug] [2025-06-03T23:56:32.077Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-03T23:56:32.208Z] Object "/apphosting" in "firebase.json" is missing required property: {"missingProperty":"backendId"}
+[debug] [2025-06-03T23:56:32.209Z] Field "/apphosting" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-06-03T23:56:32.209Z] Field "/apphosting" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[debug] [2025-06-03T23:56:32.212Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-03T23:56:32.212Z] > authorizing via signed-in user (hugomes1999@gmail.com)
+[debug] [2025-06-03T23:56:32.212Z] [iam] checking project cabrasuecapartyorganizer for permissions ["firebase.projects.get",null]
+[debug] [2025-06-03T23:56:32.213Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:32.213Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:32.214Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions [none]
+[debug] [2025-06-03T23:56:32.215Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:32.215Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get",null]}
+[debug] [2025-06-03T23:56:32.908Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions 200
+[debug] [2025-06-03T23:56:32.908Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-03T23:56:32.909Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project cabrasuecapartyorganizer:
+
+  
+[info] 
+[info] === Deploying to 'cabrasuecapartyorganizer'...
+[info] 
+[info] i  deploying apphosting 
+[debug] [2025-06-03T23:56:32.910Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:32.910Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:32.911Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-06-03T23:56:32.911Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:33.726Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-06-03T23:56:33.726Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-06-03T23:56:33.726Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.727Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.728Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.728Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:33.728Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [none]
+[debug] [2025-06-03T23:56:33.728Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:33.728Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [none]
+[debug] [2025-06-03T23:56:33.729Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:33.730Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [none]
+[debug] [2025-06-03T23:56:33.730Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:33.731Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [none]
+[debug] [2025-06-03T23:56:33.731Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:33.732Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [none]
+[debug] [2025-06-03T23:56:33.733Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:33.734Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [none]
+[debug] [2025-06-03T23:56:33.734Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:34.465Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com 200
+[debug] [2025-06-03T23:56:34.465Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-06-03T23:56:34.522Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com 200
+[debug] [2025-06-03T23:56:34.523Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [omitted]
+[debug] [2025-06-03T23:56:34.528Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com 200
+[debug] [2025-06-03T23:56:34.529Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [omitted]
+[debug] [2025-06-03T23:56:34.535Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com 200
+[debug] [2025-06-03T23:56:34.535Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-06-03T23:56:34.551Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com 200
+[debug] [2025-06-03T23:56:34.551Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-06-03T23:56:34.563Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com 200
+[debug] [2025-06-03T23:56:34.563Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-06-03T23:56:34.563Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:34.563Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:34.563Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-06-03T23:56:34.563Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-03T23:56:34.564Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-03T23:56:35.222Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-06-03T23:56:35.222Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-03T23:56:35.222Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:35.222Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:35.223Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy [none]
+[debug] [2025-06-03T23:56:35.447Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy 200
+[debug] [2025-06-03T23:56:35.448Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy {"version":1,"etag":"BwY2s0/Ktvg=","bindings":[{"role":"roles/artifactregistry.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-artifactregistry.iam.gserviceaccount.com"]},{"role":"roles/cloudbuild.builds.builder","members":["serviceAccount:1057890312188@cloudbuild.gserviceaccount.com"]},{"role":"roles/cloudbuild.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-cloudbuild.iam.gserviceaccount.com"]},{"role":"roles/containerregistry.ServiceAgent","members":["serviceAccount:service-1057890312188@containerregistry.iam.gserviceaccount.com"]},{"role":"roles/editor","members":["serviceAccount:1057890312188-compute@developer.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/firebaseapphosting.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebaseapphosting.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/logging.logWriter","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:hugomes1999@gmail.com"]},{"role":"roles/run.serviceAgent","members":["serviceAccount:service-1057890312188@serverless-robot-prod.iam.gserviceaccount.com"]},{"role":"roles/storage.objectViewer","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]}]}
+[debug] [2025-06-03T23:56:35.448Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:35.448Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-03T23:56:35.448Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 
+[debug] [2025-06-03T23:56:36.344Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 200
+[debug] [2025-06-03T23:56:36.344Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends {"backends":[{"name":"projects/cabrasuecapartyorganizer/locations/europe-west4/backends/cabrasuecaserver","createTime":"2025-06-03T23:10:36.504104729Z","updateTime":"2025-06-03T23:10:36.876548Z","labels":{"deployment-tool":"cli-firebase"},"uri":"cabrasuecaserver--cabrasuecapartyorganizer.europe-west4.hosted.app","uid":"c04cb931-70fe-487a-9d3d-9342fa64fc3c","etag":"paTc3i3V-byluVcs-eM6PcQHqtcw4GAjoi5MyYRofGw","reconciling":false,"servingLocality":"GLOBAL_ACCESS","serviceAccount":"firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com","appId":"1:1057890312188:web:45aaa04cc2212072d31c79"}]}
+[debug] [2025-06-03T23:56:41.061Z] TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:51:29
+    at Array.map (<anonymous>)
+    at normalizeChoices (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:39:20)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:72:52
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:120:38
+    at store.handleChange (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:31:17)
+    at cycle (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:33:19)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:118:13
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:35:16
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-04T00:02:47.465Z] ----------------------------------------------------------------------
+[debug] [2025-06-04T00:02:47.467Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-06-04T00:02:47.468Z] CLI Version:   14.5.1
+[debug] [2025-06-04T00:02:47.468Z] Platform:      win32
+[debug] [2025-06-04T00:02:47.468Z] Node Version:  v22.14.0
+[debug] [2025-06-04T00:02:47.468Z] Time:          Wed Jun 04 2025 01:02:47 GMT+0100 (Hora de verão da Europa Ocidental)
+[debug] [2025-06-04T00:02:47.468Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-04T00:02:47.609Z] Object "/apphosting" in "firebase.json" is missing required property: {"missingProperty":"backendId"}
+[debug] [2025-06-04T00:02:47.609Z] Field "/apphosting" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-06-04T00:02:47.609Z] Field "/apphosting" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[debug] [2025-06-04T00:02:47.611Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-04T00:02:47.612Z] > authorizing via signed-in user (hugomes1999@gmail.com)
+[debug] [2025-06-04T00:02:47.612Z] [iam] checking project cabrasuecapartyorganizer for permissions ["firebase.projects.get",null]
+[debug] [2025-06-04T00:02:47.612Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:47.613Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:47.613Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions [none]
+[debug] [2025-06-04T00:02:47.613Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:47.613Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get",null]}
+[debug] [2025-06-04T00:02:48.336Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions 200
+[debug] [2025-06-04T00:02:48.336Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-04T00:02:48.337Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project cabrasuecapartyorganizer:
+
+  
+[info] 
+[info] === Deploying to 'cabrasuecapartyorganizer'...
+[info] 
+[info] i  deploying apphosting 
+[debug] [2025-06-04T00:02:48.338Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:48.338Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:48.339Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-06-04T00:02:48.339Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:49.221Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-06-04T00:02:49.221Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.221Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.222Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.222Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:49.222Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [none]
+[debug] [2025-06-04T00:02:49.222Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:49.222Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [none]
+[debug] [2025-06-04T00:02:49.222Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:49.223Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [none]
+[debug] [2025-06-04T00:02:49.223Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:49.224Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [none]
+[debug] [2025-06-04T00:02:49.224Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:49.225Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [none]
+[debug] [2025-06-04T00:02:49.225Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:49.226Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [none]
+[debug] [2025-06-04T00:02:49.226Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:49.519Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com 200
+[debug] [2025-06-04T00:02:49.519Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-06-04T00:02:50.002Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com 200
+[debug] [2025-06-04T00:02:50.002Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-06-04T00:02:50.016Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com 200
+[debug] [2025-06-04T00:02:50.016Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-06-04T00:02:50.020Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com 200
+[debug] [2025-06-04T00:02:50.020Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-06-04T00:02:50.027Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com 200
+[debug] [2025-06-04T00:02:50.027Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [omitted]
+[debug] [2025-06-04T00:02:50.052Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com 200
+[debug] [2025-06-04T00:02:50.052Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [omitted]
+[debug] [2025-06-04T00:02:50.053Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:50.053Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:50.053Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-06-04T00:02:50.053Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:02:50.053Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-04T00:02:50.753Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-06-04T00:02:50.753Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-04T00:02:50.753Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:50.753Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:50.753Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy [none]
+[debug] [2025-06-04T00:02:50.986Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy 200
+[debug] [2025-06-04T00:02:50.986Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy {"version":1,"etag":"BwY2s0/Ktvg=","bindings":[{"role":"roles/artifactregistry.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-artifactregistry.iam.gserviceaccount.com"]},{"role":"roles/cloudbuild.builds.builder","members":["serviceAccount:1057890312188@cloudbuild.gserviceaccount.com"]},{"role":"roles/cloudbuild.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-cloudbuild.iam.gserviceaccount.com"]},{"role":"roles/containerregistry.ServiceAgent","members":["serviceAccount:service-1057890312188@containerregistry.iam.gserviceaccount.com"]},{"role":"roles/editor","members":["serviceAccount:1057890312188-compute@developer.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/firebaseapphosting.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebaseapphosting.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/logging.logWriter","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:hugomes1999@gmail.com"]},{"role":"roles/run.serviceAgent","members":["serviceAccount:service-1057890312188@serverless-robot-prod.iam.gserviceaccount.com"]},{"role":"roles/storage.objectViewer","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]}]}
+[debug] [2025-06-04T00:02:50.987Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:50.987Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:02:50.987Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 
+[debug] [2025-06-04T00:02:51.936Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 200
+[debug] [2025-06-04T00:02:51.936Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends {"backends":[{"name":"projects/cabrasuecapartyorganizer/locations/europe-west4/backends/cabrasuecaserver","createTime":"2025-06-03T23:10:36.504104729Z","updateTime":"2025-06-03T23:10:36.876548Z","labels":{"deployment-tool":"cli-firebase"},"uri":"cabrasuecaserver--cabrasuecapartyorganizer.europe-west4.hosted.app","uid":"c04cb931-70fe-487a-9d3d-9342fa64fc3c","etag":"paTc3i3V-byluVcs-eM6PcQHqtcw4GAjoi5MyYRofGw","reconciling":false,"servingLocality":"GLOBAL_ACCESS","serviceAccount":"firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com","appId":"1:1057890312188:web:45aaa04cc2212072d31c79"}]}
+[debug] [2025-06-04T00:02:54.310Z] TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:51:29
+    at Array.map (<anonymous>)
+    at normalizeChoices (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:39:20)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:72:52
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:120:38
+    at store.handleChange (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:31:17)
+    at cycle (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:33:19)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:118:13
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:35:16
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-06-04T00:03:06.901Z] ----------------------------------------------------------------------
+[debug] [2025-06-04T00:03:06.904Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-06-04T00:03:06.904Z] CLI Version:   14.5.1
+[debug] [2025-06-04T00:03:06.904Z] Platform:      win32
+[debug] [2025-06-04T00:03:06.904Z] Node Version:  v22.14.0
+[debug] [2025-06-04T00:03:06.904Z] Time:          Wed Jun 04 2025 01:03:06 GMT+0100 (Hora de verão da Europa Ocidental)
+[debug] [2025-06-04T00:03:06.904Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-04T00:03:07.044Z] Object "/apphosting" in "firebase.json" is missing required property: {"missingProperty":"backendId"}
+[debug] [2025-06-04T00:03:07.044Z] Field "/apphosting" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-06-04T00:03:07.044Z] Field "/apphosting" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[debug] [2025-06-04T00:03:07.047Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-04T00:03:07.047Z] > authorizing via signed-in user (hugomes1999@gmail.com)
+[debug] [2025-06-04T00:03:07.047Z] [iam] checking project cabrasuecapartyorganizer for permissions ["firebase.projects.get",null]
+[debug] [2025-06-04T00:03:07.048Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:07.048Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:07.049Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions [none]
+[debug] [2025-06-04T00:03:07.049Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:07.049Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get",null]}
+[debug] [2025-06-04T00:03:07.735Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions 200
+[debug] [2025-06-04T00:03:07.735Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-04T00:03:07.735Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project cabrasuecapartyorganizer:
+
+  
+[info] 
+[info] === Deploying to 'cabrasuecapartyorganizer'...
+[info] 
+[info] i  deploying apphosting 
+[debug] [2025-06-04T00:03:07.737Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:07.737Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:07.737Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-06-04T00:03:07.737Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:08.544Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-06-04T00:03:08.544Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-06-04T00:03:08.544Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.544Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.544Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.544Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.544Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.544Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.544Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.544Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.545Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.545Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.545Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.545Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:08.545Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [none]
+[debug] [2025-06-04T00:03:08.545Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:08.545Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [none]
+[debug] [2025-06-04T00:03:08.545Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:08.546Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [none]
+[debug] [2025-06-04T00:03:08.546Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:08.547Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [none]
+[debug] [2025-06-04T00:03:08.547Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:08.548Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [none]
+[debug] [2025-06-04T00:03:08.548Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:08.549Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [none]
+[debug] [2025-06-04T00:03:08.549Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:08.837Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com 200
+[debug] [2025-06-04T00:03:08.837Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-06-04T00:03:09.326Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com 200
+[debug] [2025-06-04T00:03:09.326Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/iam.googleapis.com [omitted]
+[debug] [2025-06-04T00:03:09.334Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com 200
+[debug] [2025-06-04T00:03:09.334Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-06-04T00:03:09.356Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com 200
+[debug] [2025-06-04T00:03:09.356Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-06-04T00:03:09.359Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com 200
+[debug] [2025-06-04T00:03:09.359Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-06-04T00:03:09.462Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com 200
+[debug] [2025-06-04T00:03:09.462Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/cabrasuecapartyorganizer/services/run.googleapis.com [omitted]
+[debug] [2025-06-04T00:03:09.462Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:09.463Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:09.463Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-06-04T00:03:09.463Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/cabrasuecapartyorganizer
+[debug] [2025-06-04T00:03:09.463Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-04T00:03:10.125Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-06-04T00:03:10.125Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/cabrasuecapartyorganizer/serviceAccounts/firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-06-04T00:03:10.125Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:10.125Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:10.125Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy [none]
+[debug] [2025-06-04T00:03:10.390Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy 200
+[debug] [2025-06-04T00:03:10.390Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cabrasuecapartyorganizer:getIamPolicy {"version":1,"etag":"BwY2s0/Ktvg=","bindings":[{"role":"roles/artifactregistry.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-artifactregistry.iam.gserviceaccount.com"]},{"role":"roles/cloudbuild.builds.builder","members":["serviceAccount:1057890312188@cloudbuild.gserviceaccount.com"]},{"role":"roles/cloudbuild.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-cloudbuild.iam.gserviceaccount.com"]},{"role":"roles/containerregistry.ServiceAgent","members":["serviceAccount:service-1057890312188@containerregistry.iam.gserviceaccount.com"]},{"role":"roles/editor","members":["serviceAccount:1057890312188-compute@developer.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/firebaseapphosting.serviceAgent","members":["serviceAccount:service-1057890312188@gcp-sa-firebaseapphosting.iam.gserviceaccount.com"]},{"role":"roles/firebaseauth.admin","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-fbsvc@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/logging.logWriter","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:hugomes1999@gmail.com"]},{"role":"roles/run.serviceAgent","members":["serviceAccount:service-1057890312188@serverless-robot-prod.iam.gserviceaccount.com"]},{"role":"roles/storage.objectViewer","members":["serviceAccount:firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com"]}]}
+[debug] [2025-06-04T00:03:10.390Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:10.390Z] Checked if tokens are valid: true, expires at: 1748997822377
+[debug] [2025-06-04T00:03:10.391Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 
+[debug] [2025-06-04T00:03:11.263Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends 200
+[debug] [2025-06-04T00:03:11.263Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/cabrasuecapartyorganizer/locations/-/backends {"backends":[{"name":"projects/cabrasuecapartyorganizer/locations/europe-west4/backends/cabrasuecaserver","createTime":"2025-06-03T23:10:36.504104729Z","updateTime":"2025-06-03T23:10:36.876548Z","labels":{"deployment-tool":"cli-firebase"},"uri":"cabrasuecaserver--cabrasuecapartyorganizer.europe-west4.hosted.app","uid":"c04cb931-70fe-487a-9d3d-9342fa64fc3c","etag":"paTc3i3V-byluVcs-eM6PcQHqtcw4GAjoi5MyYRofGw","reconciling":false,"servingLocality":"GLOBAL_ACCESS","serviceAccount":"firebase-app-hosting-compute@cabrasuecapartyorganizer.iam.gserviceaccount.com","appId":"1:1057890312188:web:45aaa04cc2212072d31c79"}]}
+[debug] [2025-06-04T00:03:13.233Z] TypeError: Cannot read properties of undefined (reading 'name')
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:51:29
+    at Array.map (<anonymous>)
+    at normalizeChoices (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:39:20)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\checkbox\dist\commonjs\index.js:72:52
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:120:38
+    at store.handleChange (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:31:17)
+    at cycle (C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:33:19)
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:118:13
+    at C:\Users\hugom\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:35:16
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+[error] 
+[error] Error: An unexpected error has occurred.
